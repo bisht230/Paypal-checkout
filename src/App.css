@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.wrap{
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 75px;
+}
+input {
+  display: block;
+  width: 15vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding: 4px;
+  border-radius: 3px;
+  border: none;
+  font-size: 11px;
+}
+
+input:placeholder-shown {
+  text-align: center;
+}
